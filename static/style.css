@@ -1,5 +1,4 @@
-/* static/style.css */
-
+/* === Global Body Styling === */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -7,10 +6,12 @@ body {
     background-color: #f9f9f9;
 }
 
+/* === Heading Style === */
 h1 {
     color: #333;
 }
 
+/* === Upload Form Styling === */
 form {
     margin: 30px auto;
     padding: 20px;
@@ -38,15 +39,24 @@ input[type="submit"]:hover {
     background-color: #434190;
 }
 
+/* === Uploaded Image Styling === */
 img {
     margin-top: 20px;
     max-width: 300px;
     border-radius: 10px;
 }
 
+/* === Prediction Text Styling === */
 .prediction {
     font-size: 24px;
     color: #2d3748;
     font-weight: bold;
     margin-top: 20px;
+}
+
+/* === Footer Styling === */
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #555;
 }
